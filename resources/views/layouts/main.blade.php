@@ -11,7 +11,6 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-
     @include('partials.navbar')
 
     @yield('hero')
