@@ -18,10 +18,10 @@ Route::get('/', function () {
     return view('home', compact('title'));
 })->name('home');
 
-Route::get('/chi-siamo', function () {
-    return view('about');
-})->name('about');
+Route::get('/comics', function () {
+    return view('comics');
+})->name('comics');
 
-Route::get('/contatti', function () {
-    return view('contacts');
-})->name('contacts');
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');

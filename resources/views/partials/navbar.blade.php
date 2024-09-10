@@ -1,15 +1,17 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Layout base</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-link" href="{{ route('home') }}">Home</a>
-            <a class="nav-link" href="{{ route('about') }}">Chi siamo</a>
-            <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+
+<header>
+  <div class="header">
+    <ul>
+      <li><a href="{{ route('home') }}">HOME</a></li>
+      <li><a href="{{ route('comics') }}">COMICS</a></li>
+      <li><a href="{{ route('movies') }}">MOVIES</a></li>
+      <li><a href="">TV</a></li>
+      <li><a href="">GAMES</a></li>
+      <li><a href="">COLLECTIBLES</a></li>
+      <li><a href="">VIDEOS</a></li>
+      <li><a href="">FANS</a></li>
+      <li><a href="">NEWS</a></li>
+      <li><a href="">SHOP</a></li>
+    </ul>
+  </div>
+</header>
